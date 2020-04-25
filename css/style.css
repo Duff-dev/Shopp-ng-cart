@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-image: url('../res/shoppingHeader.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 .name{    
+    padding: 0;
+    margin: auto;
+}
+
+.container {    
+    margin: 50px auto;
+}
+
+.row {
+    width: 100%;
+    margin: 30px auto;
+    border-bottom: 1px solid lightgrey;
+}
+
+.products {
+    width: 20%;       
+}
+
+.product {
+    width: 20%;   
+    display: flex;
+    align-items: center;  
+}
+
+.names {
+    width: 20%;   
+    display: flex;
+    align-items: center;  
+}
+
+.prices {
+    width: 20%;      
+    display: flex;
+    align-items: center;    
+}
+
+.quantities {
+    width: 20%;    
+    display: flex;
+    align-items: center;
+}
+
+.totals {
+    width: 15%;       
+    display: flex;
+    align-items: center;
+}
+/* items */
+
+.info {    
+    display: flex;
+    justify-content: flex-start;
+    justify-content: space-around;
+}
+
+.product {
+    width: 15%;   
+    display: flex;
+    align-items: center;  
+}
+
+.name {
+    width: 15%;   
+    display: flex;
+    align-items: center;  
+}
+
+.price {
+    width: 15%;
+    padding-left: 20px;      
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.quantity {
+    width: 4%;        
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.total {
+    width: 15%;
+    padding-right: 18px;  
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.heart:hover {
+    cursor: pointer;
+}
+
+.heart {
+    font-size: 25px;
+    color:black;
+}
+
+.bascket-total {
+    display: flex;
+    justify-content: flex-start;
+    justify-content: space-around;
+    margin-left: 300px;
+}
+

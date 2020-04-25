@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping cart</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <h1 class="name">SHOPPING CART</h1>
+    </header>
+    <section class="container-fluid">      
+        <div class="row">
+            <h3 class="products" >PRODUCT</h3>
+            <h3 class="names" >NAME</h3>
+            <h3 class="quantities" >QUANTITY</h3>
+            <h3 class="prices" >PRICE</h3>
+            <h3 class="totals" >TOTAL</h3>            
+        </div>
+        <div class="row info" >
+            <img width="200" height="200" class="product" src="./res/blackhoddie.jpg" alt="blackhoddie"><span type="button" class="heart" >♡</span>
+            <h5 class="name" >Black Hoddie</h5>
+            <input class="quantity" type="number" value="1">
+            <span class="price" >$15,00</span>
+            <h5 class="total" >$30,00</h5>
+            <button type="button" class="btn btn-info">Remove Item</button>
+        </div>
+        <div class="row info" >
+            <img width="200" height="200" class="product" src="./res/greenhoddie.jpg" alt="greenhoddie"><span type="button" class="heart" >♡</span>
+            <h5 class="name" >Green Hoddie</h5>
+            <input class="quantity" type="number" value="1">
+            <span class="price" >$25,00</span>
+            <h5 class="total" >$30,00</h5>
+            <button type="button" class="btn btn-info">Remove Item</button>
+        </div>
+        <div class="row info" >
+            <img width="200" height="200" class="product" src="./res/greyhoddie.jpg" alt="greyhoddie"><span type="button" class="heart" >♡</span>
+            <h5 class="name" >Grey Hoddie</h5>
+            <input class="quantity" type="number" value="1">
+            <span class="price" >$7,00</span>
+            <h5 class="total" >$30,00</h5>
+            <button type="button" class="btn btn-info">Remove Item</button>
+        </div>
+        <div class="row info" >
+            <img width="200" height="200" class="product" src="./res/shirt.jpg" alt="shirt"><span type="button" class="heart" >♡</span>
+            <h5 class="name" >Shirt</h5>
+            <input class="quantity" type="number" value="1">
+            <span class="price" >$16,00</span>
+            <h5 class="total" >$30,00</h5>
+            <button type="button" class="btn btn-info">Remove Item</button>
+        </div>
+        <div class="row info" >
+            <img width="200" height="200" class="product" src="./res/shirt.jpg" alt="shirt"><span type="button" class="heart" >♡</span>
+            <h5 class="name" >Shirt</h5>
+            <input class="quantity" type="number" value="1">
+            <span class="price" >$30,00</span>
+            <h5 class="total" >$30,00</h5>
+            <button type="button" class="btn btn-info">Remove Item</button>
+        </div>
+        <div class="bascket-total">
+            <h4>Total Cost</h4>
+            <h4 class="bascket-total-price">$125,00</h4>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <script src="./js/main.js" async ></script> 
+</body>
+</html>
